@@ -15,11 +15,11 @@ conn = Connection.get_connection_from_secrets("postgres-server-ftde")
 
 
 # def fun_extract_top_countries(**kwargs):
-#     extract_transform_top_countries()
+#     extract_transform_top_countries(conn)
 
 
 # def fun_load_top_countries(*kwargs):
-#     load_top_countries()
+#     load_top_countries(conn)
 
 
 def func_exec_et_top_countries():
